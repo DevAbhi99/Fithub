@@ -1,0 +1,110 @@
+.nav_bar{
+    background-color: blueviolet;
+}
+.title_fitapp{
+    color:whitesmoke;
+    font-size: 40px;
+    font-family:sans-serif;
+}
+.title_bar{
+background-color: blueviolet;
+padding-left:650px;
+}
+
+.diet_summary{
+    margin-left:600px;
+}
+#reqcal{
+    margin-left:20px;
+    border-radius: 5px;
+    width:240px;
+}
+#reqcal:hover{
+    margin-left:20px;
+    border-radius: 5px;
+    width:240px;
+    border:2px solid goldenrod;
+}
+
+#remcal{
+    margin-left:35px;
+    border-radius: 5px;
+    width:300px;
+}
+#remcal:hover{
+    margin-left:35px;
+    border-radius: 5px;
+    width:300px;
+    border:2px solid goldenrod;
+}
+#sumtot{
+    margin-left:70px;
+    border-radius: 5px;
+    width:300px;
+}
+#sumtot:hover{
+    margin-left:70px;
+    border-radius: 5px;
+    width:300px;
+    border:2px solid goldenrod;
+}
+
+.diet_table{
+    background-color: rgb(81, 81, 81);
+    color:yellow;
+    width:720px;
+    margin-left:400px;
+    margin-top:100px;
+    border-radius: 5px;
+    padding-left: 100px;
+}
+#btnremove{
+    border:none;
+    background-color: orangered;
+    color: white;
+}
+#btnadd{
+    border:none;
+    background-color: orange;
+    color: white;
+}
+.userInput{
+    margin-left:550px;
+}
+.userInput{
+    margin-top:20px;
+}
+.btngrp{
+    margin-top:10px;
+}
+#btnfind{
+    width:80px;
+    height:30px;
+    border:none;
+    background-color: green;
+    color:white;
+}
+#btnreset{
+    width:80px;
+    height:30px;
+    border:none;
+    background-color: blue;
+    color:white;
+}
+#btnfind:hover{
+    width:80px;
+    height:30px;
+    border:2px solid gold;
+    background-color: green;
+    color:white;
+}
+#btnreset:hover{
+    width:80px;
+    height:30px;
+    border:2px solid gold;
+    background-color: blue;
+    color:white;
+}
+#errorfound{
+    color:red;
+}

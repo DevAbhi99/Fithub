@@ -1,0 +1,98 @@
+.nav_bar{
+    background-color: blueviolet;
+}
+.title_fitapp{
+    color:whitesmoke;
+    font-size: 40px;
+    font-family:sans-serif;
+}
+.title_bar{
+background-color: blueviolet;
+padding-left:650px;
+}
+.navbar_main{
+    background-color: greenyellow;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    height:70px;
+}
+.nav_bar{
+
+}
+#settings_btn{
+    font-size: 25px;
+    border:none;
+    color:white;
+    
+    
+}
+.water_main{
+    margin-left:1100px;
+    margin-top: 15px;
+}
+.profile_main{
+    margin-left:40px;
+    margin-top: 5px;
+}
+#water_btn{
+    font-size: 16px;
+    color:blue;
+    background-color: greenyellow;
+    border:none;
+}
+#profile_btn{
+    font-size: 12px;
+    border:none;
+    background-color: greenyellow;
+    color:brown;
+   
+}
+#dropdown-basic-button{
+    background-color: greenyellow;
+    font-size: larger;
+    border: none;
+}
+.dropdown-item {
+  display: block;
+    width: 100%;
+    padding: 10px;
+    color: white; /* Change this to your desired text color */
+    text-decoration: none;
+    background-color: blueviolet; /* Change this to your desired background color */
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #f8f9fa; /* Change this to your desired hover color */
+    color: #000; /* Change this to your desired hover text color */
+    text-decoration: none;
+}
+#dropdown-basic{
+    background-color: greenyellow;
+    border:none;
+    font-size: 16px;
+}
+.settings_main{
+    margin-top:15px;
+}
+#close_btn{
+    height:20px;
+    width:30px;
+    background-color:black ;
+    color:white;
+    border: none;
+    border-radius: 5px;
+}
+#profile_pic{
+    height:40px;
+    width:40px;
+    margin-left: 12px;
+    border:none;
+    border-radius:50%;
+}
+.profile_main{
+    display: flex;
+    flex-direction: column;
+}

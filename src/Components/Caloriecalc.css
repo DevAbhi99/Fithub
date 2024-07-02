@@ -1,0 +1,74 @@
+.calorie_calc{
+    padding-top: 30px;
+ margin-left:460px;
+    margin-top:90px;
+    padding-left: 100px;
+    background-color: rgb(192, 188, 188);
+    width: 500px;
+    height:300px;
+    color:blueviolet;
+}
+
+.calorie_paragagraph{
+   font-size: larger;
+}
+
+
+
+#age_txt{
+    margin-left: 10px;
+}
+.gender_field{
+    margin-top:10px;
+}
+.height_field{
+    margin-top:10px;
+}
+#infeet{
+    margin-left:10px;
+}
+#ininch{
+    margin-left:10px;
+}
+.weight_field{
+    margin-top:10px;
+}
+#inkg{
+    margin-left: 10px;
+}
+.exercise_choice{
+    margin-top:10px;
+}
+#workout_type{
+    margin-left:10px;
+}
+.btn_field{
+    margin-top:20px;
+   display: flex;
+   flex-direction: row;
+  
+}
+#reset_btn{
+    margin-left:250px;
+}
+#caloriecalc{
+    height:30px;
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius:10px;
+}
+#caloriereset{
+    height:30px;
+    background-color: blue;
+    color: white;
+    border:none;
+    border-radius:10px;
+}
+.cal_result{
+margin-top:30px;
+color: maroon;
+}
+#gender_res{
+    color:rgb(192, 188, 188);
+}

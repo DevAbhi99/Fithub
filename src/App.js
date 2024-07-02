@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Landing from './Components/Landing';
+import Waterintake from './Components/Waterintake';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Caloriecalc from './Components/Caloriecalc';
+import Diettracker from './Components/Diettracker';
+import WeightTraining from './Components/WeightTraining';
+import Zumba from './Components/Zumba';
+import Martialarts from './Components/Martialarts';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Landing/>}/>
+          <Route path="/waterintake" element={<Waterintake />} />
+          <Route path="/caloriereq" element={<Caloriecalc />} />
+          <Route path="/diettracker" element={<Diettracker />} />
+          <Route path="/weighttraining" element={<WeightTraining/>}/>
+          <Route path="/zumba" element={<Zumba/>}/>
+          <Route path="/martialarts" element={<Martialarts/>}/>
+        </Routes>
+      </BrowserRouter>
+  
   );
 }
 

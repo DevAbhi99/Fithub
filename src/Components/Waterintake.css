@@ -1,0 +1,54 @@
+.nav_bar{
+    background-color: blueviolet;
+}
+.title_fitapp{
+    color:whitesmoke;
+    font-size: 40px;
+    font-family:sans-serif;
+}
+.title_bar{
+background-color: blueviolet;
+padding-left:650px;
+}
+#p1,#p2{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(68, 67, 67);
+}
+.w_tracker{
+    margin-left: 580px;
+    margin-top: 100px;
+}
+#water_title{
+    color:navy;
+}
+.t_tool{
+    display: flex;
+    flex-direction: column;
+}
+#update{
+    margin-left:50px;
+    margin-top:10px;
+    margin-left:85px;
+}
+#water_update{
+    height:30px;
+    width:70px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+#water_reduce{
+    height:30px;
+    width:70px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+#water_txt{
+    width:300px;
+    font-size: larger;
+}
+#water_res{
+    color:blueviolet;
+}

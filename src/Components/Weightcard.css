@@ -1,0 +1,43 @@
+.card_main{
+    background-color: grey;
+    width:400px;
+    height:400px;
+    margin-left:50px;
+    display: flex;
+    flex-direction: column;
+}
+.card_main:hover{
+    background-color: grey;
+    width:400px;
+    height:400px;
+    margin-left:50px;
+    display: flex;
+    border:2px solid blueviolet;
+    border-radius: 10px;
+    flex-direction: column;
+}
+#image_alignment{
+    width:400px;
+    height:240px;
+}
+#title_alignment{
+   font-size: 25px;
+   margin-left:70px;
+   color: white;
+}
+#btn_alignment{
+    margin-left:140px;
+    margin-top:80px;
+    height:40px;
+    width:100px;
+    border:none;
+    border-radius: 5px;
+}
+#btn_alignment:hover{
+    margin-left:140px;
+    margin-top:80px;
+    height:40px;
+    width:100px;
+    border:2px solid goldenrod;
+    border-radius: 5px;
+}
